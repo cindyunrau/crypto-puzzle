@@ -1,6 +1,8 @@
-# crypto-puzzle
+# Crypto Puzzle
 
 for nwhacks 2022
+
+by: Ada Sungar and Cindy Unrau
 
 # Getting Started with Create React App
 
