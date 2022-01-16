@@ -15,8 +15,15 @@ const Container = styled.div`
 const Text = "That it will never come again is what makes life sweet."
 
 function randomizer(text) {
-    return ['Z','Y','X','W','V','U','T','S','R','Q','P','O','N','M','L','K','J','I','H','G','F','E','D','C','B','A']
+    const a1 = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"];
+    const a2 = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"];
+
+    a2.sort(() => Math.random() - 0.5);
+
+    return a2;
 }
+
+
 
 function Crypto() {
     return (
